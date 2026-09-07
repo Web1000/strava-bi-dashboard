@@ -1,0 +1,25 @@
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.env
+
+# Personal Strava export (GPS tracks, photos, videos, messages, profile)
+export_*/
+**/activities/*.gpx
+**/activities/*.fit
+**/activities/*.tcx
+media/
+*.gpx
+*.fit
+*.tcx
+*.jpg
+*.jpeg
+*.heic
+*.png
+!assets/
+!assets/dashboard.png
+*.mp4
+*.mov
+*.csv
+!sample_data/*.csv
